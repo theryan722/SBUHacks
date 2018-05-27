@@ -1,249 +1,124 @@
-.backgroundoverride{
-    background-color: #8d0000 !important;
-    color: white !important;
-}
-
-.faqHeader {
-    font-size: 27px;
-    margin: 20px;
-}
-
-.panel-heading [data-toggle="collapse"]:after {
-    font-family: 'Glyphicons Halflings';
-    /*content: "e072";*/
-    /* "play" icon */
-    float: right;
-    color: #F58723;
-    font-size: 18px;
-    line-height: 22px;
-    /* rotate "play" icon from > (right arrow) to down arrow */
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-}
-
-.panel-heading [data-toggle="collapse"].collapsed:after {
-    /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-    color: #454444;
-}
-
-
-
-
-section.features .section-heading {
-    margin-bottom: 0px;
-}
-
-section.schedule {
-    background-color: #555;
-}
-
-section.schedule .section-heading {
-    color: #ffffff;
-}
-
-section.schedule th {
-    color: #ffffff;
-    font-style: bold;
-}
-
-section.schedule tr {
-    color: #ffffff;
-}
-
-section.schedule p {
-    color: #ffffff;
-}
-
-
-section.about {
-    background-color: #8d0000;
-    position: static;
-    padding: 100px 0;
-    /* height: 80%; */
-}
-
-section.about .section-heading {
-    color: #ffffff;
-}
-
-section.about p {
-    color: #ffffff;
-}
-
-
-section.theme {
-    background-color: #000;
-}
-
-#theme-heading {
-    color: #ff0000;
-}
-
-
-footer ul li a {
-    font-size: 20px;
-    color: rgba(255, 255, 255, .3);
-}
-
-
-
-#mainNav .navbar-nav>li>a.active {
-    color: #8d0000!important;
-}
-
-
-.img-fluid {
-    max-height: 50px;
-}
-
-
-
-
-#video-overlay {
-    background: rgba(0, 0, 0, 0);
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-video {
-    height: auto;
-    vertical-align: middle;
-    /*width: 100%;*/
+html {
+  background-color: black;
+  color: white;
+  user-select: none;
+  -webkit-user-select: none;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 body {
-    line-height: 0;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: #000000;
 }
 
-
-
-@media (min-width: 1200px) {
-    #background {
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        height: auto;
-        z-index: -100;
-    }
+.screen {
+  position: absolute;
+  overflow: hidden;
+  z-index: 1;
 }
 
-
-
-/* Landscape tablets and medium desktops */
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    #background {
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        height: auto;
-        z-index: -100;
-    }
+.hidden {
+  display: none !important;
 }
 
-
-
-/* Portrait tablets and small desktops */
-
-@media (min-width: 768px) and (max-width: 991px) {
-    #background {
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 500%;
-        height: auto;
-        z-index: -100;
-    }
+#stage{
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
+::-webkit-scrollbar{
+    width: 0px
+  }
+::-webkit-scrollbar-track-piece{
+    background-color: transparent
+    -webkit-border-radius: 6px
+  }
 
-
-/* Landscape phones and portrait tablets */
-
-@media (max-width: 767px) {
-    #background {
-        background-image: none;
-    }
+.Section{
+  width: 70%;
+  margin-left: 20%;
+  height: 80%;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 
-
-
-/* Portrait phones and smaller */
-
-@media (max-width: 480px) {
-    #background {
-        background-image: none;
-    }
+#Intro,
+#Schedule,
+#Prizes,
+#FAQ,
+#Sponsors,
+#Contact{
+    background-color: rgba(0,170,169,0.3);
 }
 
-
-
-.container h1 {
-    color: white;
+#astronaut{
+  height: 50%;
+  width: 12%;
+  background-image: url('../media/astronaut.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  left: 4%;
+  top: 25%;
 }
 
-#header-text {
-    margin-bottom: 40px;
+.button{
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: white;
+  box-shadow: 0.3125rem 0.3125rem 0.3125rem grey;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: #00AAA9;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
-#logo {
-    width: 460px;
+.button:active{
+  box-shadow: 0 0.3125rem grey;
+  transform: translateY(0.250rem);
 }
 
-.card {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 90%
+/* Section 1 */
+#logo{
+  width: 35%;
+  height: 50%;
+  margin-left: 32.5%;
+  margin-top: 1%;
+  background-color: rgba(0,170,169,0.3);
 }
 
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+#logoContainer{
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  text-align: center;
+  left: 25%;
+  top: 25%;
 }
 
-/* Add some padding inside the card container */
-.container {
-    padding: 2px 16px;
+#ship{
+  height: 50%;
+  width: 12%;
+  background-image: url('../media/astronaut.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 4%;
+  top: 25%;
 }
 
-
-@media (min-width: 0px) {
-    #logo {
-        width: 360px;
-    }
+#registerButton{
+  width: 40%;
+  height: 20%;
+  margin-left: 29%;
+  margin-top: 1%;
 }
 
-@media (min-width: 768px) {
-    #logo {
-        width: 460px;
-    }
-}
-
-@media (min-width: 992px) {
-    #logo {
-        width: 460px;
-    }
-}
-
-@media (min-width: 1200px) {
-    #logo {
-        width: 460px;
-    }
-}
+/* Section 2 */
