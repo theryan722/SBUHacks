@@ -60,3 +60,35 @@
   -webkit-animation: move-twink-back 200s linear infinite;
   animation: move-twink-back 200s linear infinite;
 }
+
+#planetsSection1{
+  background-image: url('../media/background/Planet1.svg');
+}
+
+#planetsSection2{
+  background-image: url('../media/background/Planet2.svg');
+}
+
+#planetsSection3{
+  background-image: url('../media/background/Planet3.svg');
+}
+
+#planetsSection4{
+  background-image: url('../media/background/Planet4.svg');
+}
+
+#planetsSection5{
+  background-image: url('../media/background/Planet5.svg');
+}
+
+#planetsSection6{
+  background-image: url('../media/background/Planet6.svg');
+}
+
+#planetsSection7{
+  background-image: url('../media/background/Planet7.svg');
+}
+
+#planetsSection0{
+  background-image: url('../media/background/Planet0.svg');
+}
