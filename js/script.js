@@ -5,10 +5,21 @@ $(function() {
 function initPage(){
   initMLH();
   initPrizeSlider();
+  initSponsorSlider();
 }
 
 function initPrizeSlider(){
-  $('.slider-nav').slick({
+  $('#prize-nav').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    dots: true,
+    centerMode: true,
+    focusOnSelect: true
+  });
+}
+
+function initSponsorSlider(){
+  $('#sponsor-nav').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     dots: true,
