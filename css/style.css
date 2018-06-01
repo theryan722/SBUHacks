@@ -309,6 +309,11 @@ h1 {
   height: 65%;
 }
 
+#sponsorText{
+  margin: 0;
+  margin-bottom: 5%;
+}
+
 /* Section 7 */
 #contactHolder {
   width: 50%;
