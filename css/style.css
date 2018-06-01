@@ -48,12 +48,12 @@ body {
 
 #astronaut {
   height: 50%;
-  width: 12%;
+  width: 24%;
   background-image: url('../media/astronaut.svg');
   background-position: center;
   background-repeat: no-repeat;
   position: fixed;
-  left: 4%;
+  left: 1%;
   top: 25%;
 }
 
@@ -96,29 +96,36 @@ h1 {
 
 .planets {
   height: 50%;
-  width: 12%;
+  width: 20%;
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
-  right: 4%;
+  right: 1%;
 }
 
 /* Section 1 */
 
-#logo {
-  width: 80%;
-  height: 100%;
-  margin-left: 11.5%;
-  margin-top: 1%;
-}
-
 #logoContainer {
-  width: 50%;
-  height: 50%;
+  width: 45%;
+  height: 45%;
   position: absolute;
   text-align: center;
-  left: 25%;
-  top: 25%;
+  left: 27.5%;
+  top: 0%;
+}
+
+#logoContainer img{
+  height: 100%;
+  width: 100%;
+}
+
+#logoInformation{
+  height: 50%;
+  width: 75%;
+  position: absolute;
+  text-align: center;
+  left: 12.5%;
+  top: 46%;
 }
 
 #registerButton {
@@ -133,7 +140,31 @@ h1 {
 }
 
 #planetsSection0{
-  width: 40%;
+  width: 30%;
+}
+
+#Splash{
+  margin-top: 0;
+  height: 90%;
+}
+
+#Splash h1{
+  margin: 1.5%;
+}
+
+#title{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4rem;
+}
+
+#subheading{
+    font-family: 'Raleway Dots', cursive;
+    font-size: 3rem;
+}
+
+#location{
+    font-size: 2rem;
+    margin: 2%;
 }
 
 /* Section 2 */
@@ -311,18 +342,6 @@ h1 {
 }
 
 #planetsSection6{
-  margin-top: 8%;
-  right: 44%;
-}
-
-#title{
-    margin-top: 10%;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 60px;
-}
-
-#subheading{
-font-family: 'Raleway Dots', cursive;
-    margin-top: 5%;
-    font-size: 30px;
+  margin-top: 10%;
+  right: 40%;
 }
