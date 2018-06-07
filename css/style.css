@@ -44,6 +44,11 @@ body {
     height: 80%;
     margin-bottom: 5%;
     margin-top: 5%;
+    border-radius: 1rem;
+    /* background-image: url('../media/screen.svg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #astronaut {
@@ -113,9 +118,7 @@ body {
     cursor: pointer;
     text-align: center;
     border-radius: 1rem;
-/*    background-color: #00AAA9;*/
-    background-color: 
-#09046a;
+   background-color: #00AAA9;
     font-size: 2rem;
     display: flex;
     flex-direction: column;
@@ -219,7 +222,7 @@ h1 {
 
 #Splash {
     margin-top: 0;
-    height: 90%;
+    height: 100%;
 }
 
 #Splash h1 {

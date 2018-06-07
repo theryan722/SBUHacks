@@ -18,7 +18,7 @@
 	<stop  offset="0.3419" style="stop-color:#29ABE2"/>
 	<stop  offset="0.8944" style="stop-color:#00278B"/>
 </linearGradient>
-<polygon id="tail4" class="st0" points="1076.4,264.2 402.4,873.9 516,685.3 203.9,847.7 266.4,756.9 86.5,779.4 289.5,628.4 
+<polygon id="tail4" class="st0" points="1076.4,264.2 402.4,873.9 516,685.3 203.9,847.7 266.4,756.9 86.5,779.4 289.5,628.4
 	187.8,596.4 448.1,487.6 374,435.5 "/>
 <linearGradient id="tail3_1_" gradientUnits="userSpaceOnUse" x1="263.098" y1="539.2593" x2="1029.4685" y2="442.172">
 	<stop  offset="0.3851" style="stop-color:#65C8D0"/>
@@ -30,7 +30,7 @@
 	<stop  offset="0.6597" style="stop-color:#023D8D"/>
 	<stop  offset="0.733" style="stop-color:#003A8B"/>
 </linearGradient>
-<polygon id="tail3" class="st1" points="1097.1,260.2 540.5,677.5 644.6,559.5 401.3,686.1 457.1,628.3 325.4,661.8 489.1,554.2 
+<polygon id="tail3" class="st1" points="1097.1,260.2 540.5,677.5 644.6,559.5 401.3,686.1 457.1,628.3 325.4,661.8 489.1,554.2
 	420.1,548.3 619.8,457.5 572.9,437.2 "/>
 <linearGradient id="tail2_1_" gradientUnits="userSpaceOnUse" x1="650.3504" y1="370.6612" x2="1041.329" y2="370.6612">
 	<stop  offset="0.2757" style="stop-color:#65C8D0"/>
@@ -67,7 +67,7 @@
 	</g>
 	<path id="mouse5" class="st6" d="M1093.5,338.3c0,0-32.1-78.8-77.2-124.7"/>
 	<line id="mouse4" class="st6" x1="1060.3" y1="272.8" x2="988.1" y2="316"/>
-	
+
 		<linearGradient id="mouse3_1_" gradientUnits="userSpaceOnUse" x1="638.4508" y1="936.7804" x2="655.5804" y2="953.0316" gradientTransform="matrix(-0.5201 -0.8541 0.8541 -0.5201 555.8555 1342.1934)">
 		<stop  offset="0.1847" style="stop-color:#0E052D"/>
 		<stop  offset="0.9765" style="stop-color:#2E176D"/>
