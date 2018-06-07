@@ -111,7 +111,7 @@
 
 @keyframes axisX {
     100% {
-        transform: translate(-2000px, -768px);
+        transform: translate(2000px, 768px);
     }
 /*
     60% {
