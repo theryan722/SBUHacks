@@ -27,8 +27,8 @@
 
     display: block;
 
-    width: 20px;
-    height: 20px;
+    width: 1rem;
+    height: 1rem;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -67,7 +67,7 @@
 .slick-next:before
 {
     font-family: 'slick';
-    font-size: 20px;
+    font-size: 1rem;
     line-height: 1;
 
     opacity: .75;
@@ -79,11 +79,11 @@
 
 .slick-prev
 {
-    left: -25px;
+    left: -1.563rem;
 }
 [dir='rtl'] .slick-prev
 {
-    right: -25px;
+    right: -1.563rem;
     left: auto;
 }
 .slick-prev:before
@@ -97,12 +97,12 @@
 
 .slick-next
 {
-    right: -25px;
+    right: -1.563rem;
 }
 [dir='rtl'] .slick-next
 {
     right: auto;
-    left: -25px;
+    left: -1.563rem;
 }
 .slick-next:before
 {
@@ -116,13 +116,13 @@
 /* Dots */
 .slick-dotted.slick-slider
 {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 .slick-dots
 {
     position: absolute;
-    bottom: -25px;
+    bottom: -1.563rem;
 
     display: block;
 
@@ -142,7 +142,7 @@
 
     width: 1rem;
     height: 1rem;
-    margin: 0 5px;
+    margin: 0 0.4rem;
     padding: 0;
 
     cursor: pointer;
@@ -156,7 +156,7 @@
 
     width: 1rem;
     height: 1rem;
-    padding: 5px;
+    padding: 0.4rem;
 
     cursor: pointer;
 
@@ -178,15 +178,15 @@
 .slick-dots li button:before
 {
     font-family: 'slick';
-    font-size: 6px;
-    line-height: 20px;
+    font-size: 0.375rem;
+    line-height: 1.25rem;
 
     position: absolute;
     top: 0;
     left: 0;
 
-    width: 20px;
-    height: 20px;
+    width: 1rem;
+    height: 1rem;
 
     content: '•';
     text-align: center;
