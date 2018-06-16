@@ -8,6 +8,13 @@ function initPage(){
   initSponsorSlider();
   initFaqSlider();
   initComet();
+  initRegister();
+}
+
+function initRegister(){
+  $("#registerButton").on("click",function(){
+    window.location.href = "https://sbucomputingsociety.typeform.com/to/F0L4TF";
+  });
 }
 
 function initPrizeSlider(){

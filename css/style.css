@@ -25,6 +25,10 @@ body {
     display: none !important;
 }
 
+.grayed {
+  opacity: 0.3;
+}
+
 #stage {
     overflow-x: hidden;
     overflow-y: scroll;
