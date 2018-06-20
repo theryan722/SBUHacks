@@ -62,7 +62,9 @@ function initScroll(){
   })
 
   $("#scrollD").on("click",function(){
-    $("#stage").scrollTop($("#stage").outerHeight);
+    var elemt = $("#stage");
+
+    $("#stage").scrollTop(elemt[0].scrollHeight);
   })
 
   $(document).ready(function () {
