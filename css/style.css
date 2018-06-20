@@ -115,10 +115,10 @@ body {
     animation:  10s;
     -webkit-animation-name: axisX;
     /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 10s;
+    -webkit-animation-duration: 60s;
     /* Safari 4.0 - 8.0 */
     animation-name: axisX;
-    animation-duration: 10s;
+    animation-duration: 60s;
     animation-delay: 30s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
