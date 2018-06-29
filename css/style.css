@@ -11,7 +11,7 @@ html {
 body {
     margin: 0;
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: auto;
     background-color: #000000;
 }
 
@@ -30,8 +30,10 @@ body {
 }
 
 #stage {
-    overflow-x: hidden;
-    overflow-y: scroll;
+    /* overflow-x: hidden;
+    overflow-y: auto; */
+    overflow: visible;
+    -ms-overflow-style: none !important;
 }
 
 ::-webkit-scrollbar {
@@ -80,6 +82,7 @@ body {
     animation-name: axisY;
     animation-duration: 50s;
     animation-iteration-count: infinite;
+    z-index: 1;
 }
 
 #planetEven {

@@ -58,22 +58,24 @@ function initComet(){
 
 function initScroll(){
   $("#scrollU").on("click",function(){
-    $("#stage").scrollTop(0);
+    $(document).scrollTop(0);
   })
 
   $("#scrollD").on("click",function(){
     var elemt = $("#stage");
-
-    $("#stage").scrollTop(elemt[0].scrollHeight);
+    $(document).scrollTop(elemt[0].scrollHeight);
   })
 
   $(document).ready(function () {
-    $('#stage').bind('scroll', chk_scroll);
+    $(document).bind('scroll', chk_scroll);
+
 });
 
 function chk_scroll(e) {
     var elem = $(e.currentTarget);
-    if (elem[0].scrollHeight - elem.scrollTop() < elem.outerHeight()+1) {
+    var elemt = $("#stage");
+    console.log(elemt[0].scrollHeight - elem.scrollTop() , elemt.outerHeight()+1);
+    if (elemt[0].scrollHeight - elem.scrollTop() < elemt.outerHeight()+1) {
         $("#scrollD").addClass("hidden");
     }else{
         $("#scrollD").removeClass("hidden");
@@ -85,4 +87,5 @@ function chk_scroll(e) {
       $("#scrollU").removeClass("hidden");
   }
 }
+
 }
