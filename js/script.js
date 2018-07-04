@@ -72,9 +72,10 @@ function initScroll(){
 });
 
 function chk_scroll(e) {
+
     var elem = $(e.currentTarget);
     var elemt = $("#stage");
-    console.log(elemt[0].scrollHeight - elem.scrollTop() , elemt.outerHeight()+1);
+
     if (elemt[0].scrollHeight - elem.scrollTop() < elemt.outerHeight()+1) {
         $("#scrollD").addClass("hidden");
     }else{
@@ -83,9 +84,9 @@ function chk_scroll(e) {
 
     if(elem.scrollTop() < 1){
       $("#scrollU").addClass("hidden");
-  }else{
+    }else{
       $("#scrollU").removeClass("hidden");
+    }
   }
-}
 
 }
