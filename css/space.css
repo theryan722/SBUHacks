@@ -95,7 +95,7 @@
 
 @keyframes axisY {
     50% {
-        transform: translate(0, -200px) rotate(20deg);
+        transform: translate(0, -10rem) rotate(20deg);
     }
 }
 @keyframes planetEven {
@@ -113,14 +113,6 @@
     100% {
         transform: translate(20000px, 7680px);
     }
-/*
-    60% {
-        transform: rotate(180deg);
-    }
-    100% {
-        transform: translate(-2000px, 768px);
-    }
-*/
 }
 
 @keyframes axisZ {
@@ -130,12 +122,4 @@
     100% {
         transform: translate(-2000px, -768px);
     }
-/*
-    60% {
-        transform: rotate(180deg);
-    }
-    100% {
-        transform: translate(-2000px, 768px);
-    }
-*/
 }
