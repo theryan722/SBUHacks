@@ -7,6 +7,7 @@ function initPage(){
   initPrizeSlider();
   initSponsorSlider();
   initFaqSlider();
+  initDocSlider();
   initComet();
   initRegister();
   initScroll();
@@ -40,6 +41,16 @@ function initSponsorSlider(){
 
 function initFaqSlider(){
   $('#faq-nav').slick({
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    dots: true,
+    centerMode: true,
+    focusOnSelect: true
+  });
+}
+
+function initDocSlider(){
+  $('#importantDoc-nav').slick({
     slidesToShow: 2,
     slidesToScroll: 1,
     dots: true,
