@@ -15,7 +15,7 @@ function initPage(){
 
 function initRegister(){
   $("#registerButton").on("click",function(){
-    window.location.href = "https://sbucomputingsociety.typeform.com/to/F0L4TF";
+    window.location.href = "https://sbucomputingsociety.typeform.com/to/bbEPQD";
   });
 }
 
