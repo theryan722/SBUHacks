@@ -15,7 +15,7 @@ function initPage(){
 
 function initRegister(){
   $("#registerButton").on("click",function(){
-    window.location.href = "https://sbucomputingsociety.typeform.com/to/bbEPQD";
+    window.location.href = "https://www.facebook.com/SBUHacks";
   });
 }
 

@@ -330,8 +330,19 @@ h1 {
     width: 50%;
 }
 
+.calendarTime,
+.blu{
+  color: #00AAA9;
+}
+
 #Schedule h1 {
     text-decoration: underline;
+}
+
+#Schedule h2{
+  text-align: left;
+  padding: 0;
+  margin: 0;
 }
 
 /* Section 4 */
@@ -352,6 +363,9 @@ h1 {
     text-decoration: underline;
 }
 
+#Prizes h3{
+  font-size: 17px;
+}
 /* Section 5 */
 
 #faqHolder {
