@@ -543,7 +543,7 @@ article.hero .content h2 {
 }
 
 article.hero .content p {
-  color: lightgrey;
+  color: #3672A3;
   font-size: 2rem;
   margin: 0.5rem auto 0;
 }
@@ -1421,7 +1421,7 @@ article.footer .copyright {
 }
 
 #why-box {
-  background-color: rgba(56, 156, 255, 0.92);
+  background-color: #546e7a;
   padding: 50px;
   width: 800px;
 }
