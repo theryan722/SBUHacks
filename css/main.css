@@ -717,6 +717,14 @@ article.intro .vid-container iframe {
   height: 80%;
 }
 
+.youtube img{
+  position: absolute;
+  top: 0;
+  left: 10.3%;
+  width: 80%;
+  height: 80%;
+}
+
 article.tracks .section-title {
   margin-bottom: 5rem;
 }
