@@ -236,7 +236,7 @@ article.hero {
   background: url("../assets/Page1.svg") no-repeat;
   background-position: right;
   background-size: cover;
-  overflow-x: hidden;
+  overflow: hidden;
   background-color: #2f2f2f;
   height: 1190px;
   width: 100%;
@@ -475,7 +475,7 @@ article.hero .content {
 
 @media (max-width: 991.98px) {
   article.hero .content {
-    top: 4rem;
+    top: -10%;
   }
 }
 
