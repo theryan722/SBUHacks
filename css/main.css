@@ -1122,9 +1122,9 @@ article.schedule .container .opaque-card, article.schedule .container .event {
 
 article.faq h5 {
   font-family: 'Exo', Avenir, Georgia, sans-serif;
-  border-bottom: 2px solid #afafaf;
+  border-bottom: 2px solid #5ecae7;
   font-weight: bold;
-  color: black;
+  color: white;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -1144,7 +1144,7 @@ article.faq .collapsible {
 article.faq p {
   font-size: 1.5rem;
   margin-top: 2rem;
-  color: black;
+  color: white;
   display: block;
   overflow: hidden;
 }
@@ -1477,7 +1477,8 @@ article.faq {
   background-size: contain;
   overflow-x: hidden;
   height: 1200px;
-  width: 100%
+  width: 100%;
+  background-color:#3c3c3c;
 }
 
 #contact {
